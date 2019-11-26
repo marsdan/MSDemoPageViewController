@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MSTestSGPagingView' do
+ pod 'SGPagingView', '~> 1.6.7'
+#自动布局
+   pod 'Masonry'
+  target 'MSTestSGPagingViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MSTestSGPagingViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
